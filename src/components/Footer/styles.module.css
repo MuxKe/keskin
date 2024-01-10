@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between;
+  padding: 0.4rem 4rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: none;
+  }
+  .icons {
+    margin: 0.4rem 0;
+  }
+  .icon {
+    display: flex;
+    gap: 1rem;
+  }
+  .navigation {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .icons {
+    font-size: 0.8rem;
+  }
+}

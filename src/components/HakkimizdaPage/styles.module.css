@@ -1,0 +1,172 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 6rem;
+
+}
+
+.PersonImage {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+}
+
+.image {
+  position: relative;
+  width: 40rem;
+  height: 40rem;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  /* font-weight: 500; */
+  font-size: 3.7rem;
+  line-height: 1;
+  margin-bottom: 2.5rem;
+}
+
+.titleRew {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 0.4rem;
+  /* font-weight: 500; */
+  font-size: 3.7rem;
+  line-height: 1;
+  margin-bottom: 2.5rem;
+}
+
+.line {
+  height: 0.5rem;
+  width: 30%;
+  background-color: black;
+  margin-left: 10px;
+}
+
+.text {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1160px) {
+  .container {
+    display: flex;
+    gap: 10rem;
+  }
+
+  .items {
+   display: flex;
+   flex-direction: column;
+  }
+
+  .items:nth-child(2) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
+
+@media only screen and (max-width: 1025px) {
+  
+
+  .line {
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    margin-left: 10px;
+  }
+  .PersonImage {
+    width: 26rem;
+    height: 26rem;
+  }
+
+  .image {
+    width: 34rem;
+    height: 34rem;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .PersonImage {
+    width: 20rem;
+    height: 20rem;
+  }
+  .image {
+    width: 24rem;
+    height: 24rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .image {
+    height: 32rem;
+    width: 36rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .image {
+    width: 32rem;
+    height: 32rem;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .image {
+    height: 16rem;
+    width: 16rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 550px) {
+  .image {
+    position: relative;
+    width: 28rem;
+    height: 28rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .image {
+    position: relative;
+    width: 24rem;
+    height: 24rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .image {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+  }
+}

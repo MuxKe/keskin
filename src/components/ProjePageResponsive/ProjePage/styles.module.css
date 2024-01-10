@@ -1,0 +1,183 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 6rem;
+}
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.xlBox {
+  position: relative;
+  height: 28rem;
+  width: 15rem;
+}
+.longBox {
+  position: relative;
+  height: 18rem;
+  width: 15rem;
+}
+.midBox {
+  position: relative;
+  height: 18.5rem;
+  width: 15rem;
+}
+.smallBox {
+  position: relative;
+  height: 9rem;
+  width: 15rem;
+}
+.tripleBox {
+  position: relative;
+  height: 12rem;
+  width: 15rem;
+}
+
+@media only screen and (max-width: 1370px) {
+  .xlBox {
+    position: relative;
+    height: 25.2rem; /* %10 küçültme */
+    width: 13.5rem; /* %10 küçültme */
+  }
+
+  .longBox {
+    position: relative;
+    height: 16.2rem; /* %10 küçültme */
+    width: 13.5rem; /* %10 küçültme */
+  }
+
+  .midBox {
+    position: relative;
+    height: 16.65rem; /* %10 küçültme */
+    width: 13.5rem; /* %10 küçültme */
+  }
+
+  .smallBox {
+    position: relative;
+    height: 8.1rem; /* %10 küçültme */
+    width: 13.5rem; /* %10 küçültme */
+  }
+
+  .tripleBox {
+    position: relative;
+    height: 10.8rem; /* %10 küçültme */
+    width: 13.5rem; /* %10 küçültme */
+  }
+}
+@media only screen and (max-width: 1245px) {
+  .xlBox {
+    position: relative;
+    height: 22.68rem; /* %10 küçültme */
+    width: 12.15rem; /* %10 küçültme */
+  }
+
+  .longBox {
+    position: relative;
+    height: 14.58rem; /* %10 küçültme */
+    width: 12.15rem; /* %10 küçültme */
+  }
+
+  .midBox {
+    position: relative;
+    height: 15rem; /* %10 küçültme */
+    width: 12.15rem; /* %10 küçültme */
+  }
+
+  .smallBox {
+    position: relative;
+    height: 7.29rem; /* %10 küçültme */
+    width: 12.15rem; /* %10 küçültme */
+  }
+
+  .tripleBox {
+    position: relative;
+    height: 9.72rem; /* %10 küçültme */
+    width: 12.15rem; /* %10 küçültme */
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .xlBox {
+    height: 20.412rem; /* %10 küçültme */
+    width: 10.935rem; /* %10 küçültme */
+  }
+
+  .longBox {
+    height: 13.122rem; /* %10 küçültme */
+    width: 10.935rem; /* %10 küçültme */
+  }
+
+  .midBox {
+    height: 13.5rem; /* %10 küçültme */
+    width: 10.935rem; /* %10 küçültme */
+  }
+
+  .smallBox {
+    height: 6.561rem; /* %10 küçültme */
+    width: 10.935rem; /* %10 küçültme */
+  }
+
+  .tripleBox {
+    height: 8.748rem; /* %10 küçültme */
+    width: 10.935rem; /* %10 küçültme */
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .xlBox {
+    height: 18.371rem; /* %10 küçültme */
+    width: 9.8415rem; /* %10 küçültme */
+  }
+
+  .longBox {
+    height: 11.8098rem; /* %10 küçültme */
+    width: 9.8415rem; /* %10 küçültme */
+  }
+
+  .midBox {
+    height: 12.15rem; /* %10 küçültme */
+    width: 9.8415rem; /* %10 küçültme */
+  }
+
+  .smallBox {
+    height: 5.9054rem; /* %10 küçültme */
+    width: 9.8415rem; /* %10 küçültme */
+  }
+
+  .tripleBox {
+    height: 7.8732rem; /* %10 küçültme */
+    width: 9.8415rem; /* %10 küçültme */
+  }
+}
+
+@media only screen and (max-width: 955px) {
+  .xlBox {
+    height: 16.5343rem; /* %10 küçültme */
+    width: 8.85735rem; /* %10 küçültme */
+  }
+
+  .longBox {
+    height: 10.62882rem; /* %10 küçültme */
+    width: 8.85735rem; /* %10 küçültme */
+  }
+
+  .midBox {
+    height: 10.935rem; /* %10 küçültme */
+    width: 8.85735rem; /* %10 küçültme */
+  }
+
+  .smallBox {
+    height: 5.31486rem; /* %10 küçültme */
+    width: 8.85735rem; /* %10 küçültme */
+  }
+
+  .tripleBox {
+    height: 7.08588rem; /* %10 küçültme */
+    width: 8.85735rem; /* %10 küçültme */
+  }
+}
+

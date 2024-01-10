@@ -1,0 +1,291 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+.firstPart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.secondPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.thirdPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Orjinal Değerler */
+.firstBox {
+  position: relative;
+  height: 23.5rem;
+  width: 28rem;
+}
+.secondBox {
+  position: relative;
+  height: 23.5rem;
+  width: 28rem;
+}
+.thirdBox {
+  position: relative;
+  height: 23.5rem;
+  width: 26.25rem;
+}
+.fourthBox {
+  position: relative;
+  height: 23.5rem;
+  width: 26.25rem;
+}
+.fifthBox {
+  position: relative;
+  height: 48rem;
+  width: 26.5rem;
+}
+
+/* %10 küçültülmüş boyutlar */
+@media only screen and (max-width: 1370px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox {
+    height: 21.1rem;
+    width: 23.625rem;
+  }
+  .fifthBox {
+    height: 43.2rem;
+    width: 20.25rem;
+  }
+}
+
+@media only screen and (max-width: 1245px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox {
+    height: 19.0rem;
+    width: 21.2625rem;
+  }
+
+  .fifthBox {
+    height: 38.88rem;
+    width: 18.225rem;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox {
+    height: 17.45rem;
+    width: 19.13525rem;
+  }
+
+  .fifthBox {
+    height: 35.991rem;
+    width: 16.4025rem;
+  }
+}
+
+@media only screen and (max-width: 955px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox {
+    height: 15.720375rem;
+    width: 17.221725rem;
+  }
+
+  .fifthBox {
+    height: 32.3919rem;
+    width: 14.76225rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .secondPart {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .firstPart {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+  .thirdPart {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox,
+  .fifthBox {
+    height: 21.87rem;
+    width: 21.06rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox,
+  .fifthBox {
+    height: 19.683rem;
+    width: 19.954rem;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox,
+  .fifthBox {
+    height: 17.7147rem;
+    width: 17.9586rem;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox,
+  .fifthBox {
+    height: 15.94323rem;
+    width: 16.16274rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox,
+  .fifthBox {
+    height: 14.348907rem;
+    width: 14.546466rem;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox,
+  .fifthBox {
+    height: 12.9140163rem;
+    width: 13.0918194rem;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .firstPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .secondPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstBox {
+    height: 18.89568rem;
+    width: 24.21009rem;
+  }
+  .secondBox {
+    height: 18.89568rem;
+    width: 24.21009rem;
+  }
+  .thirdBox {
+    height: 18.89568rem;
+    width: 24.21009rem;
+  }
+  .fourthBox {
+    height: 18.89568rem;
+    width: 24.21009rem;
+  }
+  .fifthBox {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    height: 36.89568rem;
+    width: 24.21009rem;
+  }
+}
+
+@media only screen and (max-width: 402px) {
+  .firstBox {
+    height: 17.006112rem;
+    width: 21.789081rem;
+  }
+
+  .secondBox {
+    height: 17.006112rem;
+    width: 21.789081rem;
+  }
+
+  .thirdBox {
+    height: 17.006112rem;
+    width: 21.789081rem;
+  }
+  .fourthBox {
+    height: 17.006112rem;
+    width: 21.789081rem;
+  }
+  .fifthBox {
+    display: block;
+    height: 34.006112rem;
+    width: 21.789081rem;
+  }
+}

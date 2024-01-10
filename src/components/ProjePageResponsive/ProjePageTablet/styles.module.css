@@ -1,0 +1,413 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+  margin-bottom: 6rem;
+}
+.firstStep {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.secondStep {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.thirdStep {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.xlBox {
+  position: relative;
+  height: 30.492rem;
+  width: 16.335rem;
+}
+
+.longBox {
+  position: relative;
+  height: 19.602rem;
+  width: 16.335rem;
+}
+
+.midBox {
+  position: relative;
+  height: 20.1465rem;
+  width: 16.335rem;
+}
+
+.smallBox {
+  position: relative;
+  height: 9.801rem;
+  width: 16.335rem;
+}
+
+.tripleBox {
+  position: relative;
+  height: 13.068rem;
+  width: 16.335rem;
+}
+
+.orta {
+  position: relative;
+  height: 13.068rem;
+  width: 16.335rem;
+}
+
+.yatay {
+  position: relative;
+  height: 13.068rem;
+  width: 33.88rem;
+}
+
+@media only screen and (max-width: 875px) {
+  .container {
+    padding-bottom: 10rem;
+  }
+  .xlBox {
+    position: relative;
+    height: 27.72rem;
+    width: 14.85rem;
+  }
+
+  .longBox {
+    position: relative;
+    height: 17.82rem;
+    width: 14.85rem;
+  }
+
+  .midBox {
+    position: relative;
+    height: 18.315rem;
+    width: 14.85rem;
+  }
+
+  .smallBox {
+    position: relative;
+    height: 8.91rem;
+    width: 14.85rem;
+  }
+
+  .tripleBox {
+    position: relative;
+    height: 11.88rem;
+    width: 14.85rem;
+  }
+
+  .orta {
+    position: relative;
+    height: 11.88rem;
+    width: 14.85rem;
+  }
+
+  .yatay {
+    position: relative;
+    height: 11.88rem;
+    width: 30.8rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    padding: 1.4 rem;
+  }
+  .xlBox {
+    position: relative;
+    height: 25.2rem;
+    width: 13.5rem;
+  }
+
+  .longBox {
+    position: relative;
+    height: 16.2rem;
+    width: 13.5rem;
+  }
+
+  .midBox {
+    position: relative;
+    height: 16.65rem;
+    width: 13.5rem;
+  }
+
+  .smallBox {
+    position: relative;
+    height: 8.1rem;
+    width: 13.5rem;
+  }
+
+  .tripleBox {
+    position: relative;
+    height: 10.8rem;
+    width: 13.5rem;
+  }
+  .orta {
+    position: relative;
+    height: 10.8rem;
+    width: 13.5rem;
+  }
+
+  .yatay {
+    position: relative;
+    height: 10.8rem;
+    width: 28rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    padding: 1.4rem;
+  }
+  .xlBox {
+    position: relative;
+    height: 22.68rem;
+    width: 12.15rem;
+  }
+
+  .longBox {
+    position: relative;
+    height: 14.58rem;
+    width: 12.15rem;
+  }
+
+  .midBox {
+    position: relative;
+    height: 14.985rem;
+    width: 12.15rem;
+  }
+
+  .smallBox {
+    position: relative;
+    height: 7.29rem;
+    width: 12.15rem;
+  }
+
+  .tripleBox {
+    position: relative;
+    height: 9.72rem;
+    width: 12.15rem;
+  }
+
+  .orta {
+    position: relative;
+    height: 9.72rem;
+    width: 12.15rem;
+  }
+
+  .yatay {
+    position: relative;
+    height: 9.72rem;
+    width: 25.2rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    padding: 1.4rem;
+  }
+  .xlBox {
+    position: relative;
+    height: 20.412rem;
+    width: 10.935rem;
+  }
+
+  .longBox {
+    position: relative;
+    height: 13.122rem;
+    width: 10.935rem;
+  }
+
+  .midBox {
+    position: relative;
+    height: 13.4865rem;
+    width: 10.935rem;
+  }
+
+  .smallBox {
+    position: relative;
+    height: 6.561rem;
+    width: 10.935rem;
+  }
+
+  .tripleBox {
+    position: relative;
+    height: 8.748rem;
+    width: 10.935rem;
+  }
+
+  .orta {
+    position: relative;
+    height: 8.748rem;
+    width: 10.935rem;
+  }
+
+  .yatay {
+    position: relative;
+    height: 8.748rem;
+    width: 22.68rem;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  .xlBox {
+    position: relative;
+    height: 18.3718rem; /* %10 küçültülmüş değer */
+    width: 9.8415rem; /* %10 küçültülmüş değer */
+  }
+
+  .longBox {
+    position: relative;
+    height: 11.8098rem; /* %10 küçültülmüş değer */
+    width: 9.8415rem; /* %10 küçültülmüş değer */
+  }
+
+  .midBox {
+    position: relative;
+    height: 12.13785rem; /* %10 küçültülmüş değer */
+    width: 9.8415rem; /* %10 küçültülmüş değer */
+  }
+
+  .smallBox {
+    position: relative;
+    height: 5.9059rem; /* %10 küçültülmüş değer */
+    width: 9.8415rem; /* %10 küçültülmüş değer */
+  }
+
+  .tripleBox,
+  .orta {
+    position: relative;
+    height: 7.8732rem; /* %10 küçültülmüş değer */
+    width: 9.8415rem; /* %10 küçültülmüş değer */
+  }
+
+  .yatay {
+    position: relative;
+    height: 7.8732rem; /* Önceki değerle aynı tutuldu */
+    width: 20.412rem; /* %10 küçültülmüş değer */
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .xlBox {
+    position: relative;
+    height: 16.53462rem; /* %10 küçültülmüş değer */
+    width: 8.85735rem; /* %10 küçültülmüş değer */
+  }
+
+  .longBox {
+    position: relative;
+    height: 10.62882rem; /* %10 küçültülmüş değer */
+    width: 8.85735rem; /* %10 küçültülmüş değer */
+  }
+
+  .midBox {
+    position: relative;
+    height: 10.924065rem; /* %10 küçültülmüş değer */
+    width: 8.85735rem; /* %10 küçültülmüş değer */
+  }
+
+  .smallBox {
+    position: relative;
+    height: 5.31531rem; /* %10 küçültülmüş değer */
+    width: 8.85735rem; /* %10 küçültülmüş değer */
+  }
+
+  .tripleBox,
+  .orta {
+    position: relative;
+    height: 7.08588rem; /* %10 küçültülmüş değer */
+    width: 8.85735rem; /* %10 küçültülmüş değer */
+  }
+
+  .yatay {
+    position: relative;
+    height: 7.08588rem; /* Önceki değerle aynı tutuldu */
+    width: 18.3708rem; /* %10 küçültülmüş değer */
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  /* Güncellenmiş Kod */
+}
+
+@media only screen and (max-width: 470px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .firstStep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    gap: 1rem;
+  }
+  .secondStep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    gap: 1rem;
+  }
+  .thirdStep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .xlBox {
+    position: relative;
+    height: 16.53462rem; /* %10 küçültülmüş değer */
+    width: 14rem; /* %10 küçültülmüş değer */
+  }
+
+  .longBox {
+    position: relative;
+    height: 16.53462rem; /* %10 küçültülmüş değer */
+    width: 14rem; /* %10 küçültülmüş değer */
+  }
+
+  .midBox {
+    position: relative;
+    height: 16.53462rem; /* %10 küçültülmüş değer */
+    width: 14rem; /* %10 küçültülmüş değer */
+  }
+
+  .smallBox {
+    position: relative;
+    height: 16.53462rem; /* %10 küçültülmüş değer */
+    width: 14rem; /* %10 küçültülmüş değer */
+  }
+
+  .tripleBox,
+  .orta {
+    position: relative;
+    height: 16.53462rem; /* %10 küçültülmüş değer */
+    width: 14rem; /* %10 küçültülmüş değer */
+  }
+
+  .yatay {
+    position: relative;
+    height: 16.53462rem; /* %10 küçültülmüş değer */
+    width: 14rem; /* %10 küçültülmüş değer */
+  }
+}

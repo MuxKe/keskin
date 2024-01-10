@@ -1,0 +1,328 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+.firstPart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.secondPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Orjinal Değerler */
+.firstBox {
+  position: relative;
+  height: 23.5rem;
+  width: 26.25rem;
+}
+.secondBox {
+  position: relative;
+  height: 23.5rem;
+  width: 26.25rem;
+}
+.thirdBox {
+  position: relative;
+  height: 23.5rem;
+  width: 27rem;
+}
+.fourthBox {
+  position: relative;
+  height: 23.5rem;
+  width: 27rem;
+}
+.fifthBox {
+  position: relative;
+  height: 48rem;
+  width: 27rem;
+}
+
+/* %10 küçültülmüş boyutlar */
+@media only screen and (max-width: 1370px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox {
+    height: 21.15rem;
+    width: 17.325rem;
+  }
+  .fifthBox {
+    height: 43.2rem;
+    width: 34.65rem;
+  }
+}
+
+@media only screen and (max-width: 1245px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox {
+    height: 19rem;
+    width: 15.8rem;
+  }
+  .fifthBox {
+    height: 39rem;
+    width: 30.85rem;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox {
+    height: 17.1rem;
+    width: 14.325rem;
+  }
+  .fifthBox {
+    height: 35rem;
+    width: 27.765rem;
+  }
+}
+
+@media only screen and (max-width: 955px) {
+  .firstBox,
+  .secondBox,
+  .thirdBox,
+  .fourthBox {
+    height: 15.39rem;
+    width: 12.8925rem;
+  }
+  .fifthBox {
+    height: 31.7rem;
+    width: 24.9885rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    gap: 0.5rem;
+  }
+  .secondPart {
+    gap: 0rem;
+  }
+  .fifthBox {
+    display: none;
+  }
+
+  .firstBox {
+    height: 21.87rem;
+    width: 21.06rem;
+  }
+  .secondBox {
+    height: 16.2rem;
+    width: 21.06rem;
+  }
+  .thirdBox {
+    height: 16.2rem;
+    width: 21.06rem;
+  }
+  .fourthBox {
+    height: 21.87rem;
+    width: 21.06rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    gap: 0.5rem;
+  }
+  /* Güncellenmiş Kod */
+  .firstBox {
+    height: 19.683rem;
+    width: 19.854rem;
+  }
+  .secondBox {
+    height: 14.58rem;
+    width: 19.854rem;
+  }
+  .thirdBox {
+    height: 14.58rem;
+    width: 19.854rem;
+  }
+  .fourthBox {
+    height: 19.683rem;
+    width: 19.854rem;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  /* Güncellenmiş Kod */
+  .firstBox {
+    height: 17.7147rem;
+    width: 17.8686rem;
+  }
+  .secondBox {
+    height: 13.122rem;
+    width: 17.8686rem;
+  }
+  .thirdBox {
+    height: 13.122rem;
+    width: 17.8686rem;
+  }
+  .fourthBox {
+    height: 17.7147rem;
+    width: 17.8686rem;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  /* Güncellenmiş Kod */
+  .firstBox {
+    height: 15.94323rem;
+    width: 16.08174rem;
+  }
+  .secondBox {
+    height: 11.8098rem;
+    width: 16.08174rem;
+  }
+  .thirdBox {
+    height: 11.8098rem;
+    width: 16.08174rem;
+  }
+  .fourthBox {
+    height: 15.94323rem;
+    width: 16.08174rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  /* Güncellenmiş Kod */
+  .firstBox {
+    height: 14.348907rem;
+    width: 14.473566rem;
+  }
+  .secondBox {
+    height: 10.62882rem;
+    width: 14.473566rem;
+  }
+  .thirdBox {
+    height: 10.62882rem;
+    width: 14.473566rem;
+  }
+  .fourthBox {
+    height: 14.348907rem;
+    width: 14.473566rem;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  /* Güncellenmiş Kod */
+  .firstBox {
+    height: 12.9140163rem;
+    width: 12.9262094rem;
+  }
+  .secondBox {
+    height: 9.565938rem;
+    width: 12.9262094rem;
+  }
+  .thirdBox {
+    height: 9.565938rem;
+    width: 12.9262094rem;
+  }
+  .fourthBox {
+    height: 12.9140163rem;
+    width: 12.9262094rem;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .firstPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .secondPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstBox {
+    height: 18.89568rem;
+    width: 24.21009rem;
+  }
+  .secondBox {
+    height: 18.89568rem;
+    width: 24.21009rem;
+  }
+  .thirdBox {
+    height: 18.89568rem;
+    width: 24.21009rem;
+  }
+  .fourthBox {
+    height: 18.89568rem;
+    width: 24.21009rem;
+  }
+  .fifthBox {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    height: 36.89568rem;
+    width: 24.21009rem;
+  }
+}
+
+@media only screen and (max-width: 402px) {
+  .firstBox {
+    height: 17.006112rem;
+    width: 21.789081rem;
+  }
+
+  .secondBox {
+    height: 17.006112rem;
+    width: 21.789081rem;
+  }
+
+  .thirdBox {
+    height: 17.006112rem;
+    width: 21.789081rem;
+  }
+  .fourthBox {
+    height: 17.006112rem;
+    width: 21.789081rem;
+  }
+  .fifthBox {
+    display: block;
+    height: 34.006112rem;
+    width: 21.789081rem;
+  }
+}
