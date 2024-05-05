@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import HomePage from "../components/HomePage/HomePage";
 import Image from "next/image";
 
